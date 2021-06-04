@@ -9,7 +9,7 @@ function themeConfig($form) {
     array('Sticky', 'LogoFillWidth'), _t('导航栏'));
     $form->addInput($nav->multiMode());
 
-    $logoUrl = new Typecho_Widget_Helper_Form_Element_Text('logoUrl', NULL, NULL, _t('LOGO 地址'), _t('在这里填入一个图片 URL 地址, 以在网站标题前加上一个 LOGO'));
+    $logoUrl = new Typecho_Widget_Helper_Form_Element_Text('logoUrl', NULL, NULL, _t('LOGO 地址'), _t('在这里填入 LOGO 图片的 URL 地址, 它会替换掉整个站点标题及其默认背景图片'));
     $form->addInput($logoUrl);
     
     $sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', 
