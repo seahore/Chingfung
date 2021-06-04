@@ -29,8 +29,11 @@
                             <img src="<?php $this->options->logoUrl() ?>" alt="<?php $this->options->title() + ' Logo'?>" <?php if (!empty($this->options->nav) && in_array('LogoFillWidth', $this->options->nav)): ?> style="width: 100%;" <?php endif; ?> />
                         </a>
                     <?php else: ?>
-                        <a id="logo-img" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a>
-                        <p class="description"><?php $this->options->description() ?></p>
+                        <div class="site-name-block">
+                            <img class="site-name-bg" src="<?php $this->options->themeUrl('img/default-bg.png'); ?>" />
+                            <h1><a class="site-name" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a></h1>
+                            <p class="site-description"><?php $this->options->description() ?></p>
+                        </div>
                     <?php endif; ?>
                         <ul>
                             <li><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
