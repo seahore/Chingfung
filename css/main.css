@@ -561,6 +561,13 @@ footer {
   word-wrap: break-word;
 }
 
+.post-content hr, .comment-content hr {
+  margin: 2em 1em 2em auto;
+  width: 8em;
+  border: 1px solid #EEE;
+  border-width: 2px 0 0 0;
+}
+
 .post-near {
   list-style: none;
   color: #999;
@@ -581,4 +588,26 @@ footer {
 
 .label-404 {
   margin-top: 8em;
+}
+
+
+.page-navigator {
+  list-style: none;
+  margin: 25px 0;
+  padding: 0;
+  text-align: center;
+}
+.page-navigator li {
+  display: inline-block;
+  margin: 0 4px;
+}
+.page-navigator a {
+  display: inline-block;
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+}
+.page-navigator .current a {
+  color: white;
+  background: #9CC3D8;
 }
