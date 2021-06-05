@@ -611,3 +611,8 @@ footer {
   color: white;
   background: #9CC3D8;
 }
+
+.more {
+  margin-left: 2em;
+  font-weight: 600;
+}
