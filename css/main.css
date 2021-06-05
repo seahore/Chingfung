@@ -327,6 +327,11 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
   box-sizing: border-box;
 }
 
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 6px #9CC3D8;
+  transition: all 0.2s ease !important;
+}
 
 .container {
   margin: 10px auto 0 auto;
@@ -495,11 +500,6 @@ nav ul li a:hover {
   transition: all 0.5s ease;
 }
 
-#main-searchbox input:focus {
-  outline: none;
-  box-shadow: 0 0 6px #9CC3D8;
-  transition: all 0.2s ease !important;
-}
 
 #main-searchbox button{
   position: absolute;
@@ -566,6 +566,38 @@ footer {
   width: 8em;
   border: 1px solid #EEE;
   border-width: 2px 0 0 0;
+}
+
+
+.comment-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.comment-list li {
+  padding: 14px;
+  margin-top: 10px;
+  border: 1px solid #EEE;
+}
+.comment-author {
+  display: inline;
+  color: #444;
+}
+.comment-author cite {
+  font-weight: 600;
+  font-style: normal;
+}
+.comment-meta {
+  display: inline;
+}
+.comment-meta a {
+  font-weight: 300;
+  font-size: 12px;
+}
+.comment-reply {
+  text-align: right;
+  font-size: .92857em;
 }
 
 .post-near {
