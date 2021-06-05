@@ -562,7 +562,7 @@ footer {
 }
 
 .post-content hr, .comment-content hr {
-  margin: 2em 1em 2em auto;
+  margin: 2em auto 2em 1em;
   width: 8em;
   border: 1px solid #EEE;
   border-width: 2px 0 0 0;
