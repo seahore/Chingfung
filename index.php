@@ -3,8 +3,8 @@
  * 长沙郡无事茶社 通用主题
  * 
  * @package 清风徐来
- * @author 神遛儿
- * @version 0.9
+ * @author 谭安农
+ * @version 1.0.1
  * @link http://wushicafe.com
  */
 
