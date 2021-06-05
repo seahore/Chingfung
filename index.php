@@ -3,8 +3,8 @@
  * 长沙郡无事茶社 通用主题
  * 
  * @package 清风徐来
- * @author 神遛儿
- * @version 0.9
+ * @author 谭安农
+ * @version 1.0.1
  * @link http://wushicafe.com
  */
 
@@ -23,7 +23,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                 <li itemprop="interactionCount"><a itemprop="discussionUrl" href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a></li>
             </ul>
             <div class="post-content" itemprop="articleBody">
-    			      <?php $this->content('- 阅读剩余部分 -'); ?>
+    			<?php $this->content('&#8659; 继续阅读'); ?>
             </div>
         </article>
     <?php endwhile; ?>
